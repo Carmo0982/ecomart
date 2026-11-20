@@ -1,0 +1,28 @@
+vite v8.3.8 building client environment for produccion...
+transforming...
+✓ 1107 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.76 kB │ gzip:  0.38 kB
+dist/assets/index-B5e9_INh.css              2.19 kB │ gzip:  0.93 kB
+dist/assets/NoEncontrado-DMSnSmpp.js        0.27 kB │ gzip:  0.21 kB
+dist/assets/formato-CMmmiJHA.js             0.58 kB │ gzip:  0.36 kB
+dist/assets/rolldown-runtime-WkwZ5CU-.js    0.59 kB │ gzip:  0.36 kB
+dist/assets/TarjetaProducto-IxdmvS7D.js     0.76 kB │ gzip:  0.44 kB
+dist/assets/MisPedidos-CDt5dtbd.js          0.83 kB │ gzip:  0.49 kB
+dist/assets/Inicio-DZH1f4BQ.js              0.83 kB │ gzip:  0.48 kB
+dist/assets/Login-BaLOjRkU.js               1.17 kB │ gzip:  0.62 kB
+dist/assets/Carrito-D23SUqje.js             1.33 kB │ gzip:  0.59 kB
+dist/assets/Admin-BIUjoyMY.js               1.38 kB │ gzip:  0.70 kB
+dist/assets/Checkout-x8IZPNRa.js            1.41 kB │ gzip:  0.76 kB
+dist/assets/ProductoDetalle-CN3LwaPk.js     1.47 kB │ gzip:  0.75 kB
+dist/assets/Registro-CHZZkybL.js            2.94 kB │ gzip:  1.28 kB
+dist/assets/Catalogo-DsB_DEaQ.js            3.47 kB │ gzip:  1.63 kB
+dist/assets/api-Do8OwU0w.js                 5.40 kB │ gzip:  2.39 kB
+dist/assets/index-D3fWxu2o.js               7.03 kB │ gzip:  2.87 kB
+dist/assets/vendor-fechas-F_O4I9K7.js      27.32 kB │ gzip:  7.39 kB
+dist/assets/vendor-router-DskRiR5P.js      37.37 kB │ gzip: 13.44 kB
+dist/assets/vendor-supabase-DI2kEzqo.js   217.54 kB │ gzip: 56.27 kB
+dist/assets/vendor-react-C7zjNxyP.js      218.70 kB │ gzip: 68.26 kB
+
+✓ built in 874ms

@@ -1,0 +1,40 @@
+{
+  "etiqueta": "antes",
+  "fecha": "2026-11-20T18:52:45.714Z",
+  "js_inicial": {
+    "kb": 690.8,
+    "gzip_kb": 207.71,
+    "brotli_kb": 165.33,
+    "archivos": 1
+  },
+  "js_total": {
+    "kb": 690.8,
+    "gzip_kb": 207.71,
+    "brotli_kb": 165.33,
+    "archivos": 1
+  },
+  "css_total": {
+    "kb": 2.2,
+    "gzip_kb": 0.93,
+    "brotli_kb": 0.76,
+    "archivos": 1
+  },
+  "archivos": [
+    {
+      "archivo": "assets/index-D7dABtde.js",
+      "tipo": "js",
+      "inicial": true,
+      "kb": 690.8,
+      "gzip_kb": 207.71,
+      "brotli_kb": 165.33
+    },
+    {
+      "archivo": "assets/index-B5e9_INh.css",
+      "tipo": "css",
+      "inicial": true,
+      "kb": 2.2,
+      "gzip_kb": 0.93,
+      "brotli_kb": 0.76
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Dependencias y builds
+node_modules
+dist
+dist-*
+*.tsbuildinfo
+
+# Variables de entorno: se ignoran TODAS (.env, .env.local, .env.production,
+# .env.auditoria.local, …). Solo se versiona la plantilla sin secretos.
+.env*
+!.env.example
+
+# Supabase CLI (estado local y secretos de funciones)
+supabase/.temp
+supabase/.branches
+supabase/functions/.env*
+
+# Sistema / editores
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea

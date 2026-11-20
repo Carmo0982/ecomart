@@ -1,0 +1,152 @@
+{
+  "etiqueta": "despues-sin-manualchunks",
+  "fecha": "2026-11-20T18:52:49.123Z",
+  "js_inicial": {
+    "kb": 263.38,
+    "gzip_kb": 83.72,
+    "brotli_kb": 72.64,
+    "archivos": 2
+  },
+  "js_total": {
+    "kb": 529.51,
+    "gzip_kb": 156.96,
+    "brotli_kb": 135.22,
+    "archivos": 15
+  },
+  "css_total": {
+    "kb": 2.2,
+    "gzip_kb": 0.93,
+    "brotli_kb": 0.76,
+    "archivos": 1
+  },
+  "archivos": [
+    {
+      "archivo": "assets/index-lHZ8V3Vb.js",
+      "tipo": "js",
+      "inicial": true,
+      "kb": 254.64,
+      "gzip_kb": 80.4,
+      "brotli_kb": 69.66
+    },
+    {
+      "archivo": "assets/api-Cav2aHNj.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 222.94,
+      "gzip_kb": 57.95,
+      "brotli_kb": 49.04
+    },
+    {
+      "archivo": "assets/formato-BBm9WWt3.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 27.83,
+      "gzip_kb": 7.53,
+      "brotli_kb": 6.67
+    },
+    {
+      "archivo": "assets/jsx-runtime-CKa9gbOK.js",
+      "tipo": "js",
+      "inicial": true,
+      "kb": 8.74,
+      "gzip_kb": 3.32,
+      "brotli_kb": 2.98
+    },
+    {
+      "archivo": "assets/Catalogo-D4RyfZjo.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 3.43,
+      "gzip_kb": 1.6,
+      "brotli_kb": 1.46
+    },
+    {
+      "archivo": "assets/Registro-D9_lJxFA.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 2.89,
+      "gzip_kb": 1.26,
+      "brotli_kb": 1.1
+    },
+    {
+      "archivo": "assets/index-B5e9_INh.css",
+      "tipo": "css",
+      "inicial": true,
+      "kb": 2.2,
+      "gzip_kb": 0.93,
+      "brotli_kb": 0.76
+    },
+    {
+      "archivo": "assets/ProductoDetalle-CNPfZZAE.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 1.39,
+      "gzip_kb": 0.71,
+      "brotli_kb": 0.64
+    },
+    {
+      "archivo": "assets/Admin-D8C53VC3.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 1.34,
+      "gzip_kb": 0.68,
+      "brotli_kb": 0.62
+    },
+    {
+      "archivo": "assets/Checkout-Cpj5FOXQ.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 1.33,
+      "gzip_kb": 0.73,
+      "brotli_kb": 0.64
+    },
+    {
+      "archivo": "assets/Carrito-DOovVh9X.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 1.29,
+      "gzip_kb": 0.58,
+      "brotli_kb": 0.5
+    },
+    {
+      "archivo": "assets/Login-DI81ywzI.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 1.12,
+      "gzip_kb": 0.61,
+      "brotli_kb": 0.52
+    },
+    {
+      "archivo": "assets/Inicio-DXRLQhIB.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 0.79,
+      "gzip_kb": 0.46,
+      "brotli_kb": 0.41
+    },
+    {
+      "archivo": "assets/MisPedidos-BsnqRcYD.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 0.78,
+      "gzip_kb": 0.47,
+      "brotli_kb": 0.43
+    },
+    {
+      "archivo": "assets/TarjetaProducto-BqiXfFxY.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 0.73,
+      "gzip_kb": 0.44,
+      "brotli_kb": 0.38
+    },
+    {
+      "archivo": "assets/NoEncontrado-CfiJpFDc.js",
+      "tipo": "js",
+      "inicial": false,
+      "kb": 0.27,
+      "gzip_kb": 0.22,
+      "brotli_kb": 0.17
+    }
+  ]
+}

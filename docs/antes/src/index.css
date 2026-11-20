@@ -1,0 +1,202 @@
+:root {
+  --verde: #2f6b3a;
+  --verde-claro: #e8f3ea;
+  --texto: #1d2420;
+  --borde: #d5ddd7;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--texto);
+  background: #fafcfa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: min(1100px, 100% - 2rem);
+  margin: 1.5rem auto;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--verde);
+}
+
+.cabecera a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.cabecera a.active {
+  text-decoration: underline;
+}
+
+.marca {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-left: 0 !important;
+}
+
+.aviso {
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+  background: #fff6d6;
+  font-size: 0.9rem;
+}
+
+.hero {
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--verde-claro);
+}
+
+.boton,
+button {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--verde);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font: inherit;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.tarjeta img,
+.detalle img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.etiqueta {
+  font-size: 0.8rem;
+  color: var(--verde);
+}
+
+.precio {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.co2 {
+  font-size: 0.85rem;
+  color: #55635a;
+}
+
+.detalle {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.descripcion {
+  white-space: pre-line;
+}
+
+.formulario {
+  display: grid;
+  gap: 0.9rem;
+  max-width: 460px;
+}
+
+.formulario label {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.formulario .check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--borde);
+  text-align: left;
+}
+
+.promo,
+.vista-previa {
+  padding: 0.75rem;
+  border-radius: 8px;
+  background: var(--verde-claro);
+}
+
+.ayuda {
+  font-size: 0.85rem;
+  color: #55635a;
+}
+
+[role='alert'] {
+  color: #a3261b;
+}
+
+.pie {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #55635a;
+}
